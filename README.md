@@ -46,6 +46,9 @@ prefix to `ZZZ_`.
 
 Everytime you changed a file just run `./create_files.sh`, which will create
 a `todo_list.html` which you can bookmark in your browser to check your todos.
+If you open the webpage all task information will slide up at first. To show
+the detailed information click on the heading - It will slide right down again.
+
 
 # But there are already a ton of other Todo-List apps available
 
