@@ -4,7 +4,7 @@ Create a HTML ToDo-list from markdown files using pandoc
 ## Which problem does this solve?
 
 Assume you have a lot of tasks and information about those tasks that you want
-to organize in a single HTML file. I have created this little ToDo-List/Script
+to organize in a single HTML file. I have created this little ToDo-list/script
 for exactly those purpose.
 
 # Requirements
