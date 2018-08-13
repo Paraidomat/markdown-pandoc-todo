@@ -1,5 +1,5 @@
 # markdown-pandoc-todo
-Create a HTML ToDo-list from markdown files using markdown
+Create a HTML ToDo-list from markdown files using pandoc
 
 ## Which problem does this solve?
 
