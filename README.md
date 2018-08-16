@@ -22,7 +22,8 @@ In order to run this script correctly you need the following:
 # Configuration
 
 If you'd want to change something, you should try to do so using `000yaml.yaml`
-first.
+first. Here you can set many vaiables that are supported by the 
+[Template](https://github.com/tajmone/pandoc-goodies#pandoc-html5-templates)
 
 # Usage
 
