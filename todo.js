@@ -6,9 +6,8 @@ $(document).ready(function(){
 
     //Heading Stuff
     $("h2").nextUntil("h1, h2").slideUp();
-    //$("h2").nextUntil("h2").slideUp();
     $("h2").click(function(){
-        $( this ).nextUntil("h2").slideToggle();
+        $( this ).nextUntil("h1, h2").slideToggle();
     });
 });
 
