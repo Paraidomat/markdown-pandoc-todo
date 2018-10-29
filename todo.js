@@ -1,10 +1,11 @@
 $(document).ready(function(){
+    var strNextUntil = "h1, h2, .footnotes";
     // TOC Stuff
     $("a").click(function(){
-        $("h2").nextUntil("h1, h2").slideUp();
+        $("h2").nextUntil(strNextUntil).slideUp();
 
         var target = $( this ).attr('href');
-        $(target).nextUntil("h1, h2").slideToggle();
+        $(target).nextUntil(strNextUntil).slideToggle();
     });
 
     $("nav").click(function(){
@@ -12,18 +13,18 @@ $(document).ready(function(){
     });
 
     // Heading Stuff
-    $("h2").nextUntil("h1, h2").slideUp();
+    $("h2").nextUntil(strNextUntil).slideUp();
     $("h2").click(function(){
-        $( this ).nextUntil("h1, h2").slideToggle();
+        $( this ).nextUntil(strNextUntil).slideToggle();
     });
 
     // Buttons
     $("#expandall").click(function(){
-        $("h2").nextUntil("h1, h2").slideDown();
+        $("h2").nextUntil(strNextUntil).slideDown();
         $("nav").find("ul").slideDown();
     });
     $("#collapseall").click(function(){
-        $("h2").nextUntil("h1, h2").slideUp();
+        $("h2").nextUntil(strNextUntil).slideUp();
         $("nav").find("ul").slideUp();
     });
 });
