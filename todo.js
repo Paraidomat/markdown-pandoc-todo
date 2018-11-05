@@ -3,6 +3,7 @@ $(document).ready(function(){
     // TOC Stuff
     $("a").click(function(){
         $("h2").nextUntil(strNextUntil).slideUp();
+        $("script").hide();
 
         var target = $( this ).attr('href');
         $(target).nextUntil(strNextUntil).slideToggle();
@@ -16,12 +17,14 @@ $(document).ready(function(){
     $("h2").nextUntil(strNextUntil).slideUp();
     $("h2").click(function(){
         $( this ).nextUntil(strNextUntil).slideToggle();
+        $("script").hide();
     });
 
     // Buttons
     $("#expandall").click(function(){
         $("h2").nextUntil(strNextUntil).slideDown();
         $("nav").find("ul").slideDown();
+        $("script").hide();
     });
     $("#collapseall").click(function(){
         $("h2").nextUntil(strNextUntil).slideUp();
