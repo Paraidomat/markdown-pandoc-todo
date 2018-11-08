@@ -33,11 +33,13 @@ filename like `TTT_` and use a level 2 (and not a level 1) heading.
 
 An example file could be `TTT_shopping_list.md`
 ```
-## Shopping List
+## Shopping List {data-duedate="2018-11-08"}
 
 - Food
 - Drinks
 ```
+
+Should the due date should come closer the heading will be presented in red.
 
 If you worked on a task and are waiting for some other thing to happen you 
 change the filename to the prefix `WWW_`.
