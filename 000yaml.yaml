@@ -11,6 +11,9 @@ header-includes: |
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" 
           integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" 
           crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js" 
+          integrity="sha256-xljKCznmrf+eJGt+Yxyo+Z3KHpxlppBZSjyDlutbOh0=" 
+          crossorigin="anonymous"></script>
   <script src="todo.js"></script>
   <script src="mark.js"></script>
   <link rel="stylesheet" 
