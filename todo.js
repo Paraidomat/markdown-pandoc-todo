@@ -30,4 +30,15 @@ $(document).ready(function(){
         $("h2").nextUntil(strNextUntil).slideUp();
         $("nav").find("ul").slideUp();
     });
+    
+    // Due Date Stuff
+    $("div.body").find("h2").each(function() {
+        if (typeof $(this).data("duedate") !== "undefined") {
+            if (Date.today().add(2).weeks()
+                > Date.parse($(this).data("duedate"))) {
+                $(this).css({'background': '#fcdede', 'color': '#911'});
+            }
+        }
+    });
+
 });
