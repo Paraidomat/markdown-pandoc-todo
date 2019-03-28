@@ -1,1 +1,1 @@
-# Actually things where the is stuff to be done
+# Actually things where there is stuff to be done
