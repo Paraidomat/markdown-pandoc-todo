@@ -29,7 +29,7 @@ first. Here you can set many vaiables that are supported by the
 
 Usage is quite simple with this one. For each task a new markdown-file (ending 
 with `.md`) has to be created. It is important that these files begin with a
-filename like `TTT_` and use a level 2 (and not a level 1) heading.
+filename like `TTT_{{heading}}` and use a level 2 (and not a level 1) heading.
 
 An example file could be `TTT_shopping_list.md`
 ```
@@ -42,10 +42,10 @@ An example file could be `TTT_shopping_list.md`
 Should the due date should come closer the heading will be presented in red.
 
 If you worked on a task and are waiting for some other thing to happen you 
-change the filename to the prefix `WWW_`.
+change the filename to the prefix `WWW_{{heading}}`.
 
 If you're done with all things regarding this task, just change the filename
-prefix to `ZZZ_`.
+prefix to `ZZZ_{{heading}}`.
 
 Everytime you changed a file just run `./create_files.sh`, which will create
 a `todo_list.html` which you can bookmark in your browser to check your todos.
